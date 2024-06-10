@@ -1,0 +1,41 @@
+body {
+    background-color: #323333;
+}
+h1 {
+    color: #e0e0e0;
+}
+
+.clicker-script {
+    font-family: "Clicker Script", cursive;
+}
+
+#profile-wrapper {
+    align-items: center;
+    background-color: #323333;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    background-color: #323333;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.card {
+    background-color: #323333;
+    color: #e0e0e0;
+}

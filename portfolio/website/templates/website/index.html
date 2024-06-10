@@ -1,0 +1,74 @@
+{% load static bootstrap5 %}
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Bruin</title>
+    <!-- Bootstrap CSS -->
+    {% bootstrap_css %}
+    <!-- Google Font "Clicker Script Regular" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{% static 'website/css/styles.css' %}" rel="stylesheet">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100" id="profile-wrapper">
+                    <img src="{% static 'website/images/square_image.jpg' %}" id="profile-pic">
+                    <hr>
+                    <h1 class="clicker-script">Arthur Bruin</h1>
+                </div>       
+            </div>    
+        
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+                    <h4>Umschüler Fachinformatik Anwendungsentwicklung</h4>
+                    <hr>
+                    <p>Februar 2024 startete meine Umschulung bei einem großen Bildungsträger, dem IBB. Jetzt ist es Juni 2024 und ich erstelle diese Seite mit Django, html und CSS + Bootstrap. Für Django habe ich mich entschieden, da uns während der Umschulung bisher Python nahe gebracht wurde und ich meine Fähigkeit mit dem Umgang der Sprache festigen möchte. Natürlich hätte ich mich auch für Flask entscheiden können, jedoch möchte ich noch dieses Projekt, welches bisher lediglich die APP dieser Website enthält, um weitere Anwendungen erweitern und Django bietet mir genau diese Möglichkeit.</p>
+                </div>        
+            </div>
+        </div>
+                
+        <div class="row">
+            <div class="col-md-6">
+                <br>
+                <div class="card card-body">
+                    <h4>Das habe ich bisher gelernt</h4>
+                    <hr>
+                    <p>Python: Grundlagen (ohne OOP)<br>
+                    SQL: Grundlagen (MSSQL, MariaDB, PostgreSQL, MongoDB)<br>
+                    Linux: Administration (Einrichtung und Verwaltung eines Webservers)<br>
+                    Projektmanagement: Scrum & Kanban
+                    </p>      
+                </div>        
+            </div> 
+           
+            <div class="col-md-6">
+                <br>
+                <div class="card card-body">
+                    <h4>Meine Projekte</h4>
+                    <hr>
+                    <p>Bisher ist diese Website mein einziges vorzeigbares Projekt. Ich arbeite jedoch bereits an anderen Projekten, die ich hier in Zukunft präsentieren werde.</p>
+                </div>      
+            </div>  
+        </div>    
+    
+    <br>
+    <div class="row">
+    <div class="col-md-12">
+        <div class="footer">
+            <p>Bei Fragen bitte folgende E-Mail Adresse verwenden:<br>
+            <a href="mailto:info@arthurbruin.com">info@arthurbruin.com</a></p>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
